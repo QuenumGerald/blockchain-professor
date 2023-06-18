@@ -1,0 +1,8 @@
+build:
+  config:
+    APP_BASE: 'Backend'
+  script:
+    - cd $APP_BASE && npm install && npm run build
+run:
+  command:
+    - cd $APP_BASE && npm start
